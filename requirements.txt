@@ -1,0 +1,22 @@
+# =========================================================================
+
+# ENTROPY Observability Pipeline - Dependencies
+
+# Updated incrementally as new pipeline modules are built.
+
+# =========================================================================
+
+
+
+# --- Step 1: Data Contract & Schema Validation (ingestion.py) ---
+
+# Core data validation and settings management using Python type annotations
+
+pydantic>=2.0.0,<3.0.0
+logging
+numpy
+python-dotenv
+google-genai
+streamlit
+pandas
+plotly.express
